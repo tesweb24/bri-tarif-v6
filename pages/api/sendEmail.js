@@ -7,12 +7,14 @@ export default function handler(req, res) {
     let email = '';
     let pass = '';
     
-     if (url == 'bifast-brii.herokuapp.com'){
+    if (url == 'bifast-brii.herokuapp.com'){
 
        email = 'appanjay717@gmail.com'
        pass = 'wfhcfhgoxaqmphva'
-    }else
-    
+    }
+    else {
+         email = 'appanjay717@gmail.com'
+         pass = 'wfhcfhgoxaqmphva'
     }
         
         try {
