@@ -25,8 +25,8 @@ const SitePin = ({submitPin}) => {
                 <h1 style={{textAlign:'center', fontWeight:'bold', fontSize:'1em'}}>PIN</h1>
                 <h1></h1>
             </div>
-            <h1 style={{marginTop:'2em', fontWeight:'bold', fontSize:'1.2em'}}>Konfirmasi PIN</h1>
-            <p>Silahkan konfirmasi PIN yang sudah anda buat.</p>
+            <h1 style={{marginTop:'2em', marginLeft:5, fontWeight:'bold', fontSize:'1.2em'}}>Konfirmasi PIN</h1>
+            <p style={{marginLeft:5}}>Silahkan konfirmasi PIN yang sudah anda buat.</p>
             <div className='input-pin'>
                 <PinInput value={pin.toString().replace(/,/g, "")}>
                     <PinInputField className='pin' />

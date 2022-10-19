@@ -143,21 +143,22 @@ a {
 }
 
 .input-pin{
-  width: 100%;
+  /* width: 100%; */
   height: 50px;
   border-radius: 2px;
   border: 1px solid rgb(14 120 202);
   font-size: 1rem;
   font-weight: 700;
   color: #fff;
-  margin: 1rem auto;
+  /* margin: 1rem auto; */
+  text-align: center;
 }
 
 .pin{
   color: #fff;
   background-color: rgba(157, 199, 231, 0.603) !important;
-  width: 50px !important;
-  height: 50px !important;
+  width: 45px !important;
+  height: 45px !important;
   font-size: 1.5em !important;
   margin-right: 2px;
   border-radius: 8px !important;
@@ -198,10 +199,14 @@ a {
   border-radius: 10px;
   border: 0.5px solid rgb(219, 219, 219);
   font-size: 1.1rem;
-  color: grey;
+  color: rgb(14 120 202);
   margin-top: 1rem;
   font-weight: 500;
   padding:1rem;
+}
+
+.form-control-pesan::placeholder{
+  color: #d3d3d3;
 }
 
 .form-control-pesan:focus{
