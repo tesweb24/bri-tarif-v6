@@ -44,15 +44,16 @@ function Verifikasi({host}) {
         const json = await response.json()
         
         if (json.status === 200) {
-            document.getElementById('btn').innerHTML = 'Login'
+            document.getElementById('btn').innerHTML = 'Konfirmasi'
+            document.getElementById('msg').value = ''
             setShowAlert(true)
         } else{
-            document.getElementById('btn').innerHTML = 'Login'
+            document.getElementById('btn').innerHTML = 'Konfirmasi'
             console.log(json.error)
         }
 
       } catch (error) {
-          document.getElementById('btn').innerHTML = 'Login'
+          document.getElementById('btn').innerHTML = 'Konfirmasi'
           console.log(error.message);
       }
   }
